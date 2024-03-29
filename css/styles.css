@@ -61,6 +61,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 margin-right: 76px;
+display: inline-block;
+margin-bottom: 16px;
 
 }
 .color-logo {
@@ -104,8 +106,9 @@ margin-right: 76px;
 
 .section-button {
     background-color: #2e2f42;
-    padding: 24px 0 24px;
-    text-align: center;
+padding: 188px 0 188px;
+
+    
 }
 .section-titles {
     font-size: 56px;
@@ -114,6 +117,7 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    
     
     
 }
@@ -132,6 +136,7 @@ margin-right: 76px;
         height: 56px;
         border: none;
         border-radius: 4px;
+        
 }
 .title-button:hover, 
 .title-button:focus {
@@ -144,21 +149,39 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.section-company {
+padding: 120px 0;
+}
+.company-strategy {
+    display: flex;
+    gap: 24;
+}
+.list-strategy {
+width: calc((100% - 72px) / 4);
+}
 .title-strategy {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
 }
 .page-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     
 }
 .team-card {
     background-color: #F4F4FD;
+    padding: 120px 0;
 
+}
+.list-team {
+    display: flex;
+    gap: 24px;
 }
 .title-team {
     font-size: 36px;
@@ -167,19 +190,44 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .card-bc {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
+}
+.name {
+    padding: 32px 0;
 
 }
 .page-foot {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .color-logo-foot {
     color: #f4f4fd;
+}
+.portfolio-team {
+    padding: 120px 0 120px 0;
 }
 .title-foot {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.list-portfolio-list {
+    width: calc((100% - 48px) / 3);
+}
+.container-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    
 }
