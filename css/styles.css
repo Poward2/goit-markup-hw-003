@@ -65,7 +65,7 @@ text-transform: uppercase;
 color: #4d5ae5;
 margin-right: 76px;
 display: inline-block;
-margin-bottom: 16px;
+
 
 }
 .color-logo {
@@ -171,13 +171,19 @@ width: calc((100% - 72px) / 4);
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
+    
 }
 .page-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     
+    
+}
+.name .title-strategy {
+    text-align: center;
+}
+.name .page-text {
+    text-align: center;
 }
 .team-card {
     background-color: #F4F4FD;
@@ -237,6 +243,7 @@ border-radius: 0px 0px 4px 4px;
     border-top: none;
     
 }
-.company {
-    visibility: hidden;
-} 
+.nav-logo.logonav {
+    margin-bottom: 16px;
+}
+
