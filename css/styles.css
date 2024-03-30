@@ -37,6 +37,9 @@ padding: 0 15px;
         margin: 0 auto;
         padding: 0 15px;
 }
+.container.page {
+    text-align: -webkit-center;
+}
 
 .nav-header {
     display: flex;
@@ -148,14 +151,16 @@ padding: 188px 0 188px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .section-company {
 padding: 120px 0;
 }
 .company-strategy {
     display: flex;
-    gap: 24;
+    gap: 24px;
 }
+   
 .list-strategy {
 width: calc((100% - 72px) / 4);
 }
@@ -216,6 +221,7 @@ border-radius: 0px 0px 4px 4px;
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
+
 .list-portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -231,3 +237,6 @@ border-radius: 0px 0px 4px 4px;
     border-top: none;
     
 }
+.company {
+    visibility: hidden;
+} 
